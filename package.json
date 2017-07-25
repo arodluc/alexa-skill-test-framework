@@ -3,6 +3,9 @@
   "displayName": "Alexa Skill Test Framework",
   "version": "1.2.0",
   "private": true,
+  "publishConfig": {
+    "registry": "https://npm.toolshed.tools.bbc.co.uk/"
+  },
   "description": "Framework for easy offline black-box testing of Alexa skills.",
   "keywords": [
     "alexa",
