@@ -1,10 +1,7 @@
 {
-  "name": "cd-alexa-skill-test-framework",
+  "name": "alexa-skill-test-framework",
   "displayName": "Alexa Skill Test Framework",
-  "version": "1.2.0",
-  "publishConfig": {
-    "registry": "https://npm.toolshed.tools.bbc.co.uk/"
-  },
+  "version": "1.1.2",
   "description": "Framework for easy offline black-box testing of Alexa skills.",
   "keywords": [
     "alexa",
@@ -23,6 +20,11 @@
     "email": "brianamacintosh@gmail.com",
     "url": "http://brianmacintosh.com/"
   },
+  "contributors": {
+    "name": "Thorsten Hoeger",
+    "email":"thorsten.hoeger@taimos.de",
+    "url":"https://www.taimos.de"
+  },
   "scripts": {
     "test": "node_modules/.bin/eslint index.js && node_modules/.bin/mocha 'examples/**/*-tests.js' --slow 200"
   },
@@ -36,6 +38,7 @@
   "dependencies": {
     "assertion-error": "^1.0.2",
     "aws-lambda-mock-context": "^3.0.1",
+    "aws-sdk-mock": "^1.7.0",
     "uuid": "^3.0.1"
   },
   "optionalDependencies": {
